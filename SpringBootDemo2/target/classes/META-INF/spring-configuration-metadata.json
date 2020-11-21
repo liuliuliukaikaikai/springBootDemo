@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "foot",
+      "type": "org.hdxy.config.FootConfig",
+      "sourceType": "org.hdxy.config.FootConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "org.hdxy.config.VegetablesConfig",
+      "sourceType": "org.hdxy.config.VegetablesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "foot.meat",
+      "type": "java.lang.String",
+      "sourceType": "org.hdxy.config.FootConfig"
+    },
+    {
+      "name": "foot.rice",
+      "type": "java.lang.String",
+      "sourceType": "org.hdxy.config.FootConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "org.hdxy.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpeper",
+      "type": "java.lang.String",
+      "sourceType": "org.hdxy.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "org.hdxy.config.VegetablesConfig"
+    }
+  ],
+  "hints": []
+}
