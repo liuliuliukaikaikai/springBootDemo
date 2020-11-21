@@ -30,6 +30,7 @@ public class TestController {
         Foot foot = new Foot();
         foot.setRice(config.getRice());
         foot.setMeat(config.getMeat());
+        foot.setSauce(config.getSauce());
         return foot;
     }
     @RequestMapping("vegetables")

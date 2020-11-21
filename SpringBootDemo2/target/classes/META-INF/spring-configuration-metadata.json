@@ -23,6 +23,11 @@
       "sourceType": "org.hdxy.config.FootConfig"
     },
     {
+      "name": "foot.sauce",
+      "type": "java.lang.String[]",
+      "sourceType": "org.hdxy.config.FootConfig"
+    },
+    {
       "name": "vegetables.eggplant",
       "type": "java.lang.String",
       "sourceType": "org.hdxy.config.VegetablesConfig"
