@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringBootDemo3" />
+        <module name="StringBootDemo6" />
+        <module name="SpringBootDemo4" />
+        <module name="SpringBootDemo5" />
         <module name="SpringBootDemo2" />
         <module name="SpringBootDemo1" />
-        <module name="SpringBootDemo5" />
-        <module name="SpringBootDemo4" />
-        <module name="SpringBootDemo3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="SpringBootDemo3" target="1.8" />
       <module name="SpringBootDemo4" target="1.8" />
       <module name="SpringBootDemo5" target="1.8" />
+      <module name="StringBootDemo6" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="SpringBootDemo3" options="-parameters" />
       <module name="SpringBootDemo4" options="-parameters" />
       <module name="SpringBootDemo5" options="-parameters" />
+      <module name="StringBootDemo6" options="-parameters" />
     </option>
   </component>
 </project>
