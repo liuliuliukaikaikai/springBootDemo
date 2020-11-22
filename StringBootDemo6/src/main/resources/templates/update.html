@@ -7,7 +7,8 @@
 </head>
 <body class="container">
 <h3>修改嘉宾</h3>
-<form th:action="@{/guest/update}" method="post" class="form-horizontal">
+<form th:action="@{/guest}" method="post" class="form-horizontal">
+    <input type="hidden" name="_method" value="put">
     <div class="form-group">
         <label class="col-sm-2 control-label">名字:</label>
         <div class="col-sm-5">
