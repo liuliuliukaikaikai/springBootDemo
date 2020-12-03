@@ -1,0 +1,9 @@
+server:
+  port: 8090
+foot:
+  rice: 米饭
+  meat: 烤肉
+  sauce:
+    - 咖喱
+    - 蜜汁
+    - 原味
