@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db6c6ddc-d8f2-489d-b922-c6d0096463a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/controller/GuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/filter/CustomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/interceptor/CustomInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/ExceptionAnnocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MxceptionOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/pojo/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/resolver/MyErrorResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/public/error/4xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/templates/no404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -24,6 +29,7 @@
     <ignored path="$PROJECT_DIR$/SpringBootDemo8/target/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo9/target/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo10/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootDemo11/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +58,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MxceptionOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/InterceptorConfig.java">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/ExceptionAnnocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="420">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,36 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/interceptor/CustomInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="9" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/controller/GuestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/filter/CustomFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="290">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +112,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -119,19 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/resources/static/mapper/guestMapper.xml" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/java/org/hdxy/controller/GuestController.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/java/org/hdxy/Demo7Application.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/java/org/hdxy/service/GuestService.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/java/org/hdxy/service/GuestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo7/src/main/java/org/hdxy/dao/GuestDao.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/GuestDao.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/tk/dao/TkGuestDao.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/tkdao/TkGuestDao.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/tk/mapper/TkGuestMapper.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/duing/controller/GuestController.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/duing/service/GuestServiceImpl.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/service/GuestServiceImpl.java" />
@@ -170,6 +163,19 @@
         <option value="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/SpringApplication10.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/interceptor/CustomInterceptor.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/SpringApplication11.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/TestClass.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/ValidationMessages.properties" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/pojo/Guest.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/public/error/404.fxml" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/public/error/404.html" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/resources/templates/no404.html" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/resolver/MyErrorResolver.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/ExceptionAnnocation.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MxceptionOne.java" />
       </list>
     </option>
   </component>
@@ -211,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,63 +229,99 @@
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdxy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo10" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdxy" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+              <item name="resolver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +382,7 @@
     </option>
     <option name="contentProportion" value="0.09737249" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Springbootdemo10Application">
+  <component name="RunManager" selected="Spring Boot.Springbootdemo11Application">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hdxy.Test" />
       <module name="SpringBootDemo3" />
@@ -347,16 +390,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootDemo2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Application" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hdxy.TestClass" />
+      <module name="SpringBootDemo11" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootDemo1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootDemo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -410,6 +453,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springbootdemo11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootDemo11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.SpringApplication11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springbootdemo7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBootDemo7" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Demo7Application" />
@@ -433,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Spring Boot.OrmMybatisApplication (1)" />
         <item itemvalue="Spring Boot.OrmMybatisApplication" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +510,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -590,47 +640,10 @@
     <MESSAGE value="传统方式 改成 Rest风格" />
     <MESSAGE value="SpringBoot整合Mybatis" />
     <MESSAGE value="监听事件 + 更改web容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="监听事件 + 更改web容器" />
+    <MESSAGE value="过滤器 拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="过滤器 拦截器" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/mapper/TkGuestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/OrmMybatisApplication.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/tk/mapper/TkGuestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/controller/GuestController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="138" column="53" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/OrmMybatisApplication.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/service/GuestServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/service/GuestService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.0/mybatis-plus-core-3.4.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/mapper/GuestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/mapper/TkGuestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/resources/mapper/guestMapper.xml" />
     <entry file="file://$PROJECT_DIR$/SpringBootDemo8/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -874,27 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo9/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/filter/CustomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,10 +923,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/interceptor/CustomInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="9" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="690">
+          <caret line="28" column="5" selection-start-line="9" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/controller/GuestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="380">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
@@ -949,10 +955,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/config/InterceptorConfig.java">
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/src/main/java/org/hdxy/filter/CustomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo10/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/resources/public/error/404.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/SpringApplication11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/resources/ValidationMessages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/resources/templates/no404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/pojo/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/resources/public/error/4xx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/resolver/MyErrorResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="10" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/MxceptionOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo11/src/main/java/org/hdxy/exception/ExceptionAnnocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
