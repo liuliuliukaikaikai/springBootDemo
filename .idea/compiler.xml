@@ -8,18 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="controller" />
-        <module name="SpringBootDemo3" />
+        <module name="SpringBootDemo13" />
+        <module name="SpringBootDemo12" />
         <module name="SpringBootDemo11" />
         <module name="SpringBootDemo10" />
+        <module name="SpringBootDemo9" />
         <module name="SpringBootDemo8" />
         <module name="SpringBootDemo7" />
         <module name="SpringBootDemo6" />
         <module name="SpringBootDemo5" />
         <module name="SpringBootDemo4" />
-        <module name="SpringBootDemo9" />
+        <module name="SpringBootDemo3" />
         <module name="SpringBootDemo2" />
         <module name="SpringBootDemo1" />
-        <module name="SpringBootDemo12" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="SpringBootDemo10" target="1.8" />
       <module name="SpringBootDemo11" target="1.8" />
       <module name="SpringBootDemo12" target="1.8" />
+      <module name="SpringBootDemo13" target="1.8" />
       <module name="SpringBootDemo2" target="1.8" />
       <module name="SpringBootDemo3" target="1.8" />
       <module name="SpringBootDemo4" target="1.8" />
@@ -44,6 +46,7 @@
       <module name="SpringBootDemo10" options="-parameters" />
       <module name="SpringBootDemo11" options="-parameters" />
       <module name="SpringBootDemo12" options="-parameters" />
+      <module name="SpringBootDemo13" options="-parameters" />
       <module name="SpringBootDemo2" options="-parameters" />
       <module name="SpringBootDemo3" options="-parameters" />
       <module name="SpringBootDemo4" options="-parameters" />

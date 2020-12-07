@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db6c6ddc-d8f2-489d-b922-c6d0096463a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/SpringBootDemo12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/SpringApplication12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/controller/GuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo12/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo13/SpringBootDemo13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/controller/GuestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -33,6 +37,7 @@
     <ignored path="$PROJECT_DIR$/SpringBootDemo10/target/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo11/target/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo12/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootDemo13/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +67,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/SpringApplication12.java">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo13/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="20" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="1650">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/controller/GuestController.java">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="780">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/controller/GuestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/Springbootdemo13Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,9 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/OrmMybatisApplication.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/com/duing/controller/GuestController.java" />
-        <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/OrmMybatisApplication.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/mapper/TkGuestMapper.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/mapper/GuestMapper.java" />
@@ -157,6 +176,9 @@
         <option value="$PROJECT_DIR$/SpringBootDemo12/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/SpringApplication12.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo12/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringBootDemo13/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/controller/GuestController.java" />
       </list>
     </option>
   </component>
@@ -176,7 +198,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootdemo13" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootdemo13" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -198,6 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,35 +242,62 @@
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootDemo12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootDemo13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdxy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +358,7 @@
     </option>
     <option name="contentProportion" value="0.09737249" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Springbootdemo12Application">
+  <component name="RunManager" selected="Spring Boot.Springbootdemo13Application">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hdxy.Test" />
       <module name="SpringBootDemo3" />
@@ -315,6 +376,13 @@
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringBootDemo2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootDemo1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,6 +450,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springbootdemo13Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootDemo13" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Springbootdemo13Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springbootdemo7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBootDemo7" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.hdxy.Demo7Application" />
@@ -429,10 +504,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -461,7 +535,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.38653556" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.27987897" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32980332" />
     </layout>
     <layout-to-restore>
@@ -564,34 +638,10 @@
     <MESSAGE value="监听事件 + 更改web容器" />
     <MESSAGE value="过滤器 拦截器" />
     <MESSAGE value="异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常处理" />
+    <MESSAGE value="日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/config/DBTwoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring-boot-duing-demo/shijianpianlunzhuang/src/org/RR.java" />
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo8/src/main/java/org/hdxy/config/DBOneConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -929,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo12/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/test/java/org/hdxy/Springbootdemo12ApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/log/spring.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -947,13 +990,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/SpringApplication12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/controller/GuestController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -973,6 +1009,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="20" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo12/src/main/java/org/hdxy/SpringApplication12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo12/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo13/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/Springbootdemo13Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootDemo13/src/main/java/org/hdxy/controller/GuestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
